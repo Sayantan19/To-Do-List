@@ -15,17 +15,19 @@ export default function Navbar() {
                     <a className="navbar-brand d-flex align-items-center" href="/">
                         <span>To-Do List</span>
                     </a>
-                    <div id="navcol-5" className="collapse navbar-collapse">
+                    <div id="navcol-5" className="">
                         <ul className="navbar-nav ms-auto">
                             {/* Add other menu items if needed */}
                         </ul>
-                        <button
-                            className="btn btn-outline-light btn-sm ms-md-2"
-                            role="button"
-                            onClick={handleAddTask}
-                        >
-                            Add Task
-                        </button>
+                        <div className="d-flex align-items-center">
+                            <button
+                                className="btn btn-outline-light"
+                                role="button"
+                                onClick={handleAddTask}
+                            >
+                                Add Task
+                            </button>
+                        </div>
                     </div>
                 </div>
             </nav>
