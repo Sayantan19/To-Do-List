@@ -20,7 +20,7 @@ export default function Navbar() {
                             {/* Add other menu items if needed */}
                         </ul>
                         <button
-                            className="btn btn-outline-light ms-md-2"
+                            className="btn btn-outline-light btn-sm ms-md-2"
                             role="button"
                             onClick={handleAddTask}
                         >
